@@ -7,6 +7,7 @@
     <title>Mari Garayco</title>
     <link rel="icon" type="image/x-icon" href="./img/logo.png">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <!-- TIPOGRAFIA MONTSERRAT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,19 +58,19 @@
         <!-- SLIDE -->
         <section id="slide">
             <div class="slide-container">
-                <div class="slide-item">
+                <div class="slide-item item1 animate__animated animate__fadeInUp">
                     <a href="./pages/portfolio-publicidad.html">
-                        <img src="./img/img-portfolio-publicidad/publicidad-03.jpg" alt="Foto marca Alimenta" class="imagen">
+                        <p>AMPLIAR</p>
                     </a>
                 </div>
-                <div class="slide-item">
+                <div class="slide-item item2 animate__animated animate__fadeInUp">
                     <a href="./pages/portfolio-fotoperiodismo.html">
-                        <img src="./img/img-portfolio-fotoperiodismo/fotoperiodismo-03.jpg" alt="X">
+                        <p>AMPLIAR</p>
                     </a>
                 </div>
-                <div class="slide-item">
+                <div class="slide-item item3 animate__animated animate__fadeInUp">
                     <a href="./pages/portfolio-personal.html">
-                        <img src="./img/img-portfolio-personal/portfolio-personal-01.jpg" alt="Foto textura agua de mar" class="imagen">
+                        <p>AMPLIAR</p>
                     </a>
                 </div>
             </div>
@@ -92,7 +93,7 @@
             </div>
 
         <!-- SECTION FORMULARIO -->
-            <div class="contacto__item contacto__formulario">
+            <div class="contacto__item contacto__formulario animate__animated animate__fadeInRight">
                 <h4>CHARLEMOS</h4>
                 <form action="enviar.php" method="get" enctype="text/plain">
                     <div>
@@ -145,5 +146,10 @@
         </footer>
     </div>
     
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+        
 </body>
 </html>
